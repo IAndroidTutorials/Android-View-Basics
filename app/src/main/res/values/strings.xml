@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">Android View Basics</string>
+  <string name="expandable_list_activity">Expandable List Activity</string>
+  <string name="expandable_list_example">Expandable List Example</string>
+</resources>
