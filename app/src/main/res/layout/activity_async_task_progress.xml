@@ -8,20 +8,26 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="android.prateekj.com.expandablelistview_spike.MainActivity">
+    tools:context="android.prateekj.com.expandablelistview_spike.AsyncTaskProgressActivity">
 
-    <Button
+    <TextView
+        android:id="@+id/percentage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="launchActivity"
-        android:id="@+id/expandable_list_activity"
-        android:text="@string/expandable_list_activity"/>
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"
+        android:text="0%"/>
 
-    <Button
-        android:layout_below="@+id/expandable_list_activity"
-        android:layout_width="match_parent"
+    <ProgressBar
+        android:layout_below="@+id/percentage"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:onClick="launchActivity"
-        android:id="@+id/async_task_activity"
-        android:text="@string/async_task_demo"/>
+        android:id="@+id/progress"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:max="100"
+        android:progress="0"/>
+
 </RelativeLayout>

@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
       case R.id.expandable_list_activity:
         intent = new Intent(this, ExpandableListViewActivity.class);
         break;
+      case R.id.async_task_activity:
+        intent = new Intent(this, AsyncTaskProgressActivity.class);
+        break;
       default:
         intent = new Intent(this, MainActivity.class);
         break;
