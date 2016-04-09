@@ -1,4 +1,4 @@
-package android.prateekj.com.expandablelistview_spike;
+package android.prateekj.com.basics;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

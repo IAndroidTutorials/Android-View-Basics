@@ -1,7 +1,7 @@
-package android.prateekj.com.expandablelistview_spike;
+package android.prateekj.com.basics;
 
 import android.os.Bundle;
-import android.prateekj.com.expandablelistview_spike.models.AsyncTaskProgressActions;
+import android.prateekj.com.basics.models.AsyncTaskProgressActions;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ProgressBar;
 import android.widget.TextView;

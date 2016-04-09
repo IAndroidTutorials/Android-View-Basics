@@ -1,7 +1,7 @@
-package android.prateekj.com.expandablelistview_spike;
+package android.prateekj.com.basics;
 
-import android.prateekj.com.expandablelistview_spike.models.DetailInfo;
-import android.prateekj.com.expandablelistview_spike.models.HeaderInfo;
+import android.prateekj.com.basics.models.DetailInfo;
+import android.prateekj.com.basics.models.HeaderInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ExpandableListView;

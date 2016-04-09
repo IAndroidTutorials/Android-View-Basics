@@ -1,7 +1,7 @@
-package android.prateekj.com.expandablelistview_spike;
+package android.prateekj.com.basics;
 
 import android.os.AsyncTask;
-import android.prateekj.com.expandablelistview_spike.models.AsyncTaskProgressActions;
+import android.prateekj.com.basics.models.AsyncTaskProgressActions;
 import android.util.Log;
 
 public class ProgressAysncTask extends AsyncTask<Void, Integer, Void> {
